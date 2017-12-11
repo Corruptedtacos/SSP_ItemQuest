@@ -1,0 +1,41 @@
+let app = express();
+let zipcodes = require('zipcodes')
+
+
+funcion auth(key,callback){
+
+//apikey to be required for postman
+app.use(require('apikey')(auth));
+
+//test key for auth in postman
+if('test' === key)
+
+
+callback(null, {<<add callback>>}id:1, name:'test');
+else
+callback(null,null)
+}
+//
+res.'/'
+let userlocation = '32514'
+let storelocation = '34501'
+let dist = zipcodes.distance(userlocation,storelocation);
+
+res.json({
+status:
+data:{
+data1,
+data2
+}
+
+})
+
+
+}
+
+
+FOR HEROKU
+
+git add.
+git commit -m "Comment"
+git push master heroku
